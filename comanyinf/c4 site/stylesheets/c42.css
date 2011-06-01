@@ -1,0 +1,131 @@
+html, body {
+/*    background: #999 url(images/background.jpg) 0 0 repeat; */
+		background : #999 url(../images/background.jpg) 0 0 repeat;
+    color: #111111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 98%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.header h1 {
+    font-size: 25px;
+    margin: 0.75em 0 0.75em 1em;
+    float: left;
+    line-height: 1.0;
+}
+
+.header img.logo {
+    float: right;
+    margin: 1em;
+}
+
+.content {
+    width: 75%;
+    float: left;
+}
+
+.navigation { background: #999 url(../images/background.jpg) 0 0 repeat; line-height: 1.4;}
+.navigation ul { padding: 10px 0; margin: 4.25em 0 0 2em}
+.navigation li { list-style: none; padding-right: 20px; display: inline; }
+.navigation li a { color: #EEEEEE; text-decoration: none; font-size: 16px; }
+.navigation li.selected a { color: #A88D30; }
+.navigation li a:hover{ color: #A88D30; }
+.navigation li a.current { color: #b6b6b6; }
+
+#rightPanel {
+    width: 25%;
+    float: left;
+}
+
+a:link {
+    cursor: pointer;
+    color: #111111;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #444444;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;    
+}
+
+a:active {
+}
+
+.page {
+    background: #FFFFFF none repeat scroll 0 0;
+    -moz-border-radius: 15px 15px 15px 15px / 12px 12px 12px 12px;
+    border-radius: 15px 15px 15px 15px / 12px 12px 12px 12px;
+    -moz-box-shadow: 5px 5px 7px #101010;
+    -webkit-box-shadow: 5px 5px 7px #101010;
+    border-bottom: none;
+    min-height: 90%;
+    height: auto !important;
+    margin: 2em auto 2em auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer, .push, .page {
+    width: 921px;
+}
+
+.footer, .push {
+    //width: 921px;
+    //height: 3em;
+    margin: 0 auto;
+}
+
+.push {
+    height: 1em;
+}
+
+.footer {
+  background: #FFFFFF none repeat scroll 0 0;
+  position: absolute;
+  bottom: 11px;
+}
+
+.footer ul {
+    float: left;
+    width: 98%;
+}
+
+.footer ul li {
+    float: left;
+    display: inline;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.footer li.copyright, .footer li.email, .footer li.linked-in, .footer li.facebook {
+    float: right;
+    margin-top: 3em;
+}
+
+.footer li.copyright {
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.footer li.email img, .footer li.linked-in img, .footer li.facebook img {
+    margin-top: -0.3em;
+    padding-right: 0.5em;
+}
+
+.footer li.engineyard {
+    float: left;
+    margin-left: 1.5em;
+}
+

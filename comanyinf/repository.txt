@@ -1,0 +1,143 @@
+http://stackoverflow.com/questions/374313/svn-error-not-a-working-copy
+http://pastie.org/pastes/632377
+http://juggernaut.rubyforge.org/
+
+SVN Points
+===========
+svnadmin create pathtorepository
+svn mkdir inrepository(file:///var/www/svn/repo/myproj)
+svn list --verbose file:///path to repository/
+
+
+http://aymanh.com/subversion-a-quick-tutorial#creating-the-repository
+
+SVN Registration   : https://app.codesion.com/ajax?f=1#signup?mode=free
+================
+sumankumarg
+suman123
+
+https://bitbucket.home.cvsdude.com/
+
+
+apt-get install subversion
+
+
+cd svnrepo
+(clone the project using following command)
+svn co --username sumankumarg https://pbmcsolutions.svn.cvsdude.com/sumanproj
+
+cd sumanproj
+echo "first line of my first file... yay\!" > helloworld.txt
+svn add helloworld.txt
+
+
+svn commit -m "my commit message" helloworld.txt
+
+
+BitBucket.org  HG commits and pushes 
+=====================================
+
+sumankumar
+saimanusalem
+
+
+Clone a repo Using SSH
+========================
+.hg/hgrc file
+----
+[ui]
+ssh = ssh -C
+[paths]
+default=ssh://hg@bitbucket.org/sumankumar/sai
+
+
+after this go to ~/.ssh
+-----------------------
+cd ~/.ssh
+change the config file as
+
+generate a key and copy it into bitbucket
+
+file name is : bit.pub 
+passwordphrase : suman123
+
+Host bb
+  Compression yes
+  HostName bitbucket.org
+  User hg
+
+Refer The Following Links for mercurial
+---------------------------------------
+
+http://mercurial.selenic.com/guide/
+
+http://hgbook.red-bean.com/read/mercurial-in-daily-use.html
+
+
+
+github.com
+============
+SSh
+---
+file name is a.pub for suman3548@hotmail.com
+password phrase is naresh   suman123
+
+github accounts
+---------------
+suman3548@hotmail.com
+Suman123!
+
+sumankumar
+saimanusalem1
+
+sumankumarg
+Suman123!
+
+
+
+10.0.1.19/enfold.com
+=============
+skumar@clearsenses.com
+saimanusal
+
+dev-enfold.clearsenses.com
+=============================
+gurram.1235@gmail.com
+saimanusalem
+
+182....
+=========
+suman3548@hotmail.com
+saimanu
+
+
+
+
+http://suman.bugtrack.net
+===========================
+Admin
+saimanusalem
+
+http://jasperforge.org
+=======================
+suman1235	
+Saimanusalem1
+
+
+jobsdb.com
+----------
+suman3548@hotmail.com
+saimanusalem
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+
+=====================
+Download redmine from this URL : -->   http://rubyforge.org/frs/?group_id=1850
+http://www.redmine.org/projects/redmine/wiki/Download
+
+Installation process : -- >http://www.redmine.org/projects/redmine/wiki/RedmineInstall
+
+
+http://www.redmine.org/projects/redmine/wiki/HowTo_Install_Redmine_in_Ubuntu
+
+
+http://groups.google.com/group/rubyonrails-talk/browse_thread/thread/a883252d0c8833d5
+
+today inst:
+
+sudo apt-get install libmysql-ruby
+
+today fixes 4-05-2011
+
+http://superuser.com/questions/96440/how-to-install-the-mysql-ruby-gem-on-ubuntu-9-10
+
+today fixes 05-05-2011
+
+http://railsforum.com/viewtopic.php?id=16387
+
+
+

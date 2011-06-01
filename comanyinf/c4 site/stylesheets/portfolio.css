@@ -1,0 +1,84 @@
+.content {
+    margin: 5em 0 5em 0;
+}
+
+.projects {
+    margin: -2em 0 0 2em;
+    color:#555555;
+    
+}
+
+.highlight {
+    border-left: 3px solid red;
+    padding-left: .6em;
+}
+
+.projects .project {
+    margin-top: 2em;
+}
+
+.project .name {
+    color:#111111;
+    font-size:18px;
+    padding-left:0.5em;
+}
+
+.project .description {
+    margin: 1em 1em 1em 2em;
+    text-align:justify;
+}
+
+.project .description p {
+    margin-top: 1em;
+    margin-left: 1.0em;
+}
+
+.project .thumbnail, .project .keywords, .project .client, .project .quote {
+    margin: 1em .2em .1em 2em;
+}
+
+.project .quote blockquote {
+  quotes:"\201C""\201D""\2018""\2019";
+  font-style: italic;
+}
+
+.project .quote blockquote:before {
+  color:#ccc;
+  content:open-quote;
+  font-size:4em;
+  line-height:.1em;
+  margin-right:.25em;
+  vertical-align:-.4em;
+}
+
+.project .quote blockquote:after {
+  color:#ccc;
+  content:close-quote;
+  font-size:4em;
+  line-height:.1em;
+  margin-left:.15em;
+  vertical-align:-.5em;
+}
+
+.project .quote p, .project .quote blockquote {
+  margin-top: 0.5em;
+  margin-left: 1.0em;
+}
+
+.project .keywords ul {
+    display: inline;
+}
+
+.project .keywords li {
+    padding-left: .3em;
+    margin: 0 .2em .1em 0;
+    display: inline;
+}
+
+.project a:link {
+    color: blue;
+}
+
+.project a:visited {
+    color: darkBlue;
+}

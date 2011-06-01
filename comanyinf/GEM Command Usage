@@ -1,0 +1,64 @@
+Gem Command
+
+The gem command is used to build, upload, download, and install Gem packages.
+
+Gem Usage
+
+RubyGems is very similar to apt-get, portage, and yum in functionality.
+
+Installation:
+	gem install mygem
+Uninstallation:
+	gem uninstall mygem
+Listing installed gems:
+	gem list --local
+Listing available gems, e.g.:
+	gem list --remote
+Create RDoc documentation for all gems:
+	gem rdoc --all
+Download but do not install a gem:
+	gem fetch mygem
+Search available gems, e.g.:
+	gem search STRING --remote
+
+Gem Package Building
+The gem command may also be used to build and maintain .gemspec and .gem files.
+Build .gem from a .gemspec file:
+	gem build mygem.gemspec
+
+
+
+
+
+
+
+My site : sssm.freewebsitehosting.com
+
+
+http://support.suso.com/supki/SSH_Tutorial_for_Linux
+
+http://www.redmine.org/projects/redmine/wiki/HowTo_have_both_development_and_production_environment_available_from_Apache_with_VirtualHost
+
+
+http://redmineblog.com/articles/setup-redmine-to-send-email-using-gmail/
+
+
+
+http://www.redmine.org/boards/3/topics/4645
+
+rake db:migrate_plugins               (will try and migrate data to the development database). 
+
+rake db:migrate_plugins RAILS_ENV="production"  (To migrate the plugins database for your production app issue the command)        
+
+http://www.linux.com/archive/feed/40206
+
+
+http://mercurial.selenic.com/guide/
+
+
+
+
+
+net rpc SHUTDOWN -C "enter a comment to display at shutdown" -f -I x.x.x.x -U username%password
+
+

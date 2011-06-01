@@ -1,0 +1,47 @@
+.content {
+    margin: 5em 0 5em 0;
+}
+
+.projects {
+    margin: -2em 0 0 2em;
+}
+
+.projects .project {
+    margin-top: 2em;
+}
+
+.project .name {
+    border-left:1px solid red;
+    color:#111111;
+    font-size:18px;
+    margin-bottom:1em;
+    padding-left:0.5em;
+}
+
+.project .description {
+    margin: 1em 1em 1em 2em;
+    color:#555555;
+    font-size:12px;
+    text-align:justify;
+}
+
+.project .urls {
+    margin-left: 2em;
+}
+
+.project .urls li {
+    padding-left: .3em;
+    margin: 0 .2em .1em 0;
+    border-left: 1px solid red;
+    display: inline;
+}
+
+.project a:link {
+    color: blue;
+}
+
+.project a:visited {
+    color: darkBlue;
+}
+
+

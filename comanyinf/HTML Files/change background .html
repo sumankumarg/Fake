@@ -1,0 +1,31 @@
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $(".block").toggle(function() {
+    $(this).animate({ backgroundColor: "black" }, 1000);
+},function() {
+    $(this).animate({ backgroundColor: "#68BFEF" }, 500);
+});
+
+  });
+  </script>
+  <style>
+  .block { 
+    color: white;
+    background-color: #68BFEF;
+    width: 150px; 
+    height: 70px;
+    margin: 10px; 
+  }
+  </style>
+</head>
+<body>
+  <div class="block"> Click me</div>
+</body>
+</html>

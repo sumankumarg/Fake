@@ -1,0 +1,173 @@
+<html>
+<head>
+
+  <script language='javascript'>
+    function addRow(a) {
+      var r  = document.createElement('tr');
+      var ca = document.createElement('td');
+			
+      var ta = document.createTextNode(a);
+  
+      var t  = document.getElementById('tbl');
+      ca.appendChild(ta);
+		var buttonnode= document.createElement('input');
+buttonnode.setAttribute('type','button');
+buttonnode.setAttribute('name','remove');
+buttonnode.setAttribute('value','Remove This Value');
+
+//buttonnode.attachEvent('onClick',parentNode.removeChild(document.getElementsByTagName('tr')[1]);
+      r.appendChild(ca);
+r.appendChild(buttonnode);
+	
+
+      t.tBodies(0).appendChild(r);
+
+//buttonnode.setAttribute('onClick',parentNode.removeChild(document.getElementsByTagName('tr')[1]);
+    }
+
+	function removeRow(){
+			var p2 = document.getElementsByTagName('tr')[1];
+			p2.parentNode.removeChild(p2);
+			//tbl.removeChild(tbl.lastChild);
+		}
+  </script>
+</head>
+<body>
+   <form>
+      Name <input type=text name=a>  <br>
+	
+    <input type=button value='add' onClick='addRow(a.value)'>
+		<input type=button value='remove' onClick='removeRow()'>
+   </form>
+   <table id=tbl>
+     <tr><td>Column</td></tr>
+   </table>
+</body>
+
+
+
+
+<!--
+<head>
+<script type="text/javascript">
+function ha()
+{
+
+
+document.write(document.URL);
+var a=document.form1.email.value;
+var b=document.form1.pass.value;
+
+
+if(a.length<=0)
+{
+alert("please enter the email");
+}
+if(b==null || b=="")
+{
+alert("please enter the password");
+}
+
+}
+
+
+
+var c=0;
+var t;
+var timer_is_on=0;
+
+function timedCount()
+{
+document.getElementById('txt').value=c;
+c=c+5000000000000000000;
+
+t=setTimeout("timedCount()",0);
+
+}
+
+function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+
+function stopCount()
+{
+clearTimeout(t);
+timer_is_on=0;
+}
+
+
+
+
+
+
+</script>
+</head>
+
+<body>
+<h2>Log in to your Enfold account:</h2>
+<form name="form1">
+<label><font color=#999999>Email</font></label> <br>
+<input type="text" name="email"  size="50"><br>
+<label><font color=#999999>Password</font></label><br>
+<input type="text" name ="pass"  size="50"><br>
+Forgot Your Password<br>
+<a style="color:#669933; text-decoration:none" href="http://google.com">Recover It Here</a><br>
+<input type="checkbox" ><font style="color:#999999"><label>Remember my e-mail on this computer</label></font><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input  type="button" value="Show hai" onclick="ha()"><br>
+
+
+
+<input type="button" value="Start count!" onclick="doTimer()">
+<input type="button" value="Stop count!" onclick="stopCount()">
+<input type="text" id="txt" />
+
+
+
+</form>
+</body>-->
+
+<!--
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(
+
+function(){
+  $("p").click(
+              function(){
+						  $(this).hide();
+  });
+});
+
+
+$(document).ready(
+		function()
+		{
+			$("#hai").click(
+						function()
+						{
+							$(this).fadeOut();
+						});
+		});
+
+
+</script>
+</head>
+
+<body>
+
+<p id="hai" style="background:red; width=400" href="http://sdjcs.com">If you click on me, I will disappear.</a>
+
+</body>-->
+</html>
+
+
+
+

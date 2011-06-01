@@ -1,0 +1,154 @@
+.content {
+  margin: 5.7em 0 5em 0;
+}
+
+.container img.hero {
+  float: left;
+  height: 350px;
+  width: 675px;
+  margin: 0 0 0 2em;
+  border: 1px solid #AAA;
+}
+
+.thePitch {
+  float: left;
+  clear: both;
+  margin: 2em;
+}
+
+.thePitch .applications,
+.thePitch .crafted,
+.thePitch .delivered {
+  width: 31%;
+  float: left;
+}
+
+.thePitch .applications{
+  width: 37%;
+}
+
+.thePitch h2 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: solid red 3px;
+  width: 78%;
+  padding-bottom: 0.2em;
+}
+
+.thePitch p {
+  font-size: 14px;
+  padding-top: 1em;
+  color: #555;
+  width: 80%;
+  line-height: 1.5em;
+}
+
+.blogFeed {
+  float: left;
+  clear: both;
+  margin: 2em 2em 2em 2em;
+}
+
+.blogFeed h3 {
+  font-size: 12px;
+  font-weight: bold;
+  width: 77%;
+  padding-bottom: 0.5em;
+  border-bottom: solid red 1px;
+}
+
+.blogFeed .authors{
+  float: right;
+}
+
+.blogFeed .authors img{
+  margin-left: 0.5em;
+}
+
+.blogFeed .post {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.blogFeed .post h4 {
+  font-size: 12px;
+  font-weight: bold;
+  width: 77%;
+}
+
+.blogFeed p.authorship {
+  font-size: 12px;
+  padding-top: 0.5em;
+  color: #888;
+  width: 77%;
+  line-height: 1.2em;
+}
+
+.blogFeed p.snippet {
+  font-size: 12px;
+  padding-top: 1em;
+  color: #555;
+  width: 80%;
+  line-height: 1.2em;
+  padding-bottom: 1em;
+}
+
+#container .carousel .carousel-previous {
+  background: url(http://www.thomaslanciaux.pro/jquery/images/buttons/prev.png) no-repeat 0px 0px;
+}
+
+#container .carousel .carousel-next {
+  background: url(http://www.thomaslanciaux.pro/jquery/images/buttons/next.png) no-repeat 0px 0px;
+}
+.carousel .carousel-control {
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  line-height: 999px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 40px;
+  zoom: 1;
+}
+
+.customer-quotes {
+  width: 750px !important;
+  margin-left: 20px;
+}
+
+.customer {
+  margin-top:10px;
+  float:right;
+  color: black;
+}
+
+span.company-name{
+  padding-left:6px;
+}
+
+blockquote {
+  background:#f9f9f9;
+  border-left:10px solid red;
+  margin:1.5em 10px;
+  padding:.5em 10px;
+  quotes:"\201C""\201D""\2018""\2019";
+  width: 645px;
+  font: italic normal 11pt/1.2em Georgia;
+  color: #888;
+  padding-bottom: 50px;
+}
+
+blockquote:before {
+  color:#ccc;
+  content:open-quote;
+  font-size:4em;
+  line-height:.1em;
+  margin-right:.25em;
+  vertical-align:-.4em;
+}
+
+blockquote p {
+  display:inline;
+}
+
+

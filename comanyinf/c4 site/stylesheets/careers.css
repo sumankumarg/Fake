@@ -1,0 +1,65 @@
+.content {
+    margin: 5em 0 5em 0;
+}
+
+.careers {
+    float: left;
+    margin: 0 0 0 2em;
+    text-align: justify;
+    width: 100%;
+}
+
+.careers h2 {
+    font-size: 22px;
+    color: #111111;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid red;
+    margin-bottom: 1em;
+}
+
+.careers h3 {
+    font-size: 16px;
+    color: #111111;
+    border-left: 3px solid red;
+    padding-left: 0.4em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.careers p {
+    margin-top: 0.2em;
+    margin-left: 1.5em;
+    font-size: 13px;
+}
+
+.careers .role ul.patterns, .careers .role ul.faq {
+    margin-top: 0.8em;
+    margin-left: 1.8em;
+    margin-bottom: 0.8em;
+    font-size: 13px;
+}
+
+.careers .role ul.patterns li{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.careers .role ul.faq li.answer {
+    margin-bottom: 1em;
+}
+
+.careers .role a.email {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+.careers .emphasis {
+    font-style: italic;
+}
+
+.role{
+    margin-bottom: 1.5em;
+}
+
+#rightPanel .nav .careers-nav {
+}
