@@ -1,9 +1,0 @@
-; $Id:
-name = Mytheme 
-description = This is mytheme developed for Clearsenses Site.
-core = 6.x
-engine = phptemplate
-stylesheets[all][] = style.css
-stylesheets[print][] = print.css
-
-
